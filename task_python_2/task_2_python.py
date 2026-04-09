@@ -1,14 +1,6 @@
 # TASK1
-# l = list(input())
-# result = []
-#
-# for i in range(len(l)):
-#     if l[i] != " ":
-#         num = int(l[i])
-#         if num % 2 == 0:
-#             result.append(num * 2)
-#
-# print(*result)
+# nums = [int(i) for i in input().split()]
+# print(*[num*2 for num in nums if num % 2 == 0])
 #
 # TASK4
 # words = input().split()
