@@ -11,7 +11,7 @@
 # TASK3
 # s = input().split()
 # for word in dict.fromkeys(s):
-# print(f"{word}: {s.count(word)}")
+#     print(f"{word}: {s.count(word)}")
 # 
 # TASK5
 # s = input()
