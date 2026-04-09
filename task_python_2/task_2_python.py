@@ -7,16 +7,21 @@
 # print(max(words, key=len))
 # 
 # TASK2
+# s = input()
+# substrings = []
+# start = 0
+# for i in range(1, len(s)):
+    # if s[i] <= s[i-1]:
+        # substrings.append(s[start:i])
+        # start = i
+# substrings.append(s[start:])
+# print(max(substrings, key=len))
 # 
-# TASK3
+#TASK3
 # s = input().split()
 # for word in dict.fromkeys(s):
 #     print(f"{word}: {s.count(word)}")
 # 
 # TASK5
 # s = input()
-# digits = ""
-# for ch in s:
-#     if ch.isdigit():
-#         digits += ch
-# print(int(digits) if digits else 0)
+# print(int("".join(c for c in s if c.isdigit()) or "0"))
