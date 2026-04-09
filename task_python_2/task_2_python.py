@@ -24,4 +24,4 @@
 # 
 # TASK5
 # s = input()
-# print(int("".join(c for c in s if c.isdigit()) or "0"))
+# print("".join(n for n in s if n.isdigit()) or 0)
