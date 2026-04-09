@@ -5,12 +5,14 @@
 # TASK4
 # words = input().split()
 # print(max(words, key=len))
+# 
 # TASK2
 # 
 # TASK3
 # s = input().split()
 # for word in dict.fromkeys(s):
 # print(f"{word}: {s.count(word)}")
+# 
 # TASK5
 # s = input()
 # digits = ""
